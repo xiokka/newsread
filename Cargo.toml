@@ -1,0 +1,11 @@
+[package]
+name = "newsread"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking"] }
+rss = "2.0.10"
+webui-rs = { git = "https://github.com/webui-dev/rust-webui/", branch = "main" }
+chrono = "0.4.38"
+dirs = "5.0.1"
